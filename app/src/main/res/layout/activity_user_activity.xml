@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="panhui.cn.bwf.home.ui.user_activity">
+
+    <TextView
+        android:id="@+id/user_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xiugai"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/itme_10dp"
+        android:background="@color/tomato"
+        android:textColor="@color/white"
+        android:textSize="@dimen/itme_24dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="@dimen/itme_5dp"
+        android:layout_marginLeft="@dimen/itme_5dp"
+        android:layout_below="@id/user_title"
+        android:background="@drawable/product_dot"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_text1"
+            style="@style/user_information"
+            android:text="呢"
+            />
+        <TextView
+            android:id="@+id/user_text2"
+            style="@style/user_information"
+            android:text="密"
+            />
+        <TextView
+            android:id="@+id/user_text3"
+            style="@style/user_information"
+            android:text="称"
+            />
+        <TextView
+            android:id="@+id/user_text4"
+            style="@style/user_information"
+            android:text="："
+            />
+        <!--et.setSelection(et.length());//调整光标到最后一行-->
+        <EditText
+            android:id="@+id/user_name"
+            style="@style/user_information2"
+            android:hint="请输入昵称"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/lin1"
+        android:layout_marginRight="@dimen/itme_5dp"
+        android:layout_marginLeft="@dimen/itme_5dp"
+        android:background="@drawable/product_dot"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xinmima1"
+            style="@style/user_information"
+            android:text="新"
+            />
+        <TextView
+            android:id="@+id/xinmima2"
+            style="@style/user_information"
+            android:text="密"
+            />
+        <TextView
+            android:id="@+id/xinmima3"
+            style="@style/user_information"
+            android:text="码"
+            />
+        <TextView
+            style="@style/user_information"
+            android:text="："
+            />
+        <EditText
+            android:id="@+id/user_pass"
+            style="@style/user_information2"
+            android:hint="请输入密码"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/lin2"
+        android:layout_marginRight="@dimen/itme_5dp"
+        android:layout_marginLeft="@dimen/itme_5dp"
+        android:background="@drawable/product_dot"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/user_information"
+            android:text="密"
+            />
+
+        <TextView
+            style="@style/user_information"
+            android:text="码"
+            />
+        <TextView
+            style="@style/user_information"
+            android:text="："
+            />
+        <EditText
+            android:id="@+id/user_pass2"
+            style="@style/user_information2"
+            android:hint="请输入密码"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/lin3"
+        android:layout_marginRight="@dimen/itme_5dp"
+        android:layout_marginLeft="@dimen/itme_5dp"
+        android:background="@drawable/product_dot"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/lin4"
+            style="@style/user_information2"
+            android:gravity="center"
+            android:text="提交"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

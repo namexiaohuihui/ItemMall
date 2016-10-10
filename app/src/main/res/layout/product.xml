@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/product_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/itme_0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    style="@style/product_num"
+                    android:id="@+id/itme_product_edit"
+                    android:layout_width="@dimen/itme_0dp"
+                    android:layout_weight="1"
+                    android:hint="@string/product_sousuo" />
+
+                <TextView
+                    style="@style/product_num"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="@dimen/itme_5dp"
+                    android:gravity="center"
+                    android:text="搜索" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/itme_0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/itme_5dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/product_default_sort"
+                    style="@style/product_checkbox"
+                    android:checked="true"
+                    android:background="@drawable/product_dot"
+                    android:text="@string/product_moren" />
+
+                <RadioButton
+                    android:id="@+id/product_price_sort"
+                    style="@style/product_checkbox"
+                    android:background="@drawable/product_dot"
+                    android:text="@string/product_jiage" />
+
+                <RadioButton
+                    android:id="@+id/product_sales_sort"
+                    style="@style/product_checkbox"
+                    android:background="@drawable/product_dot"
+                    android:text="@string/product_xiaoliang" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/itme_0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/product_sex_select"
+                    style="@style/product_checkbox"
+                    android:background="@drawable/itme_home_color"
+                    android:text="@string/product_xingbie" />
+
+                <RadioButton
+                    android:id="@+id/product_part_select"
+                    style="@style/product_checkbox"
+                    android:background="@drawable/itme_home_color"
+                    android:text="@string/product_buwen" />
+
+                <RadioButton
+                    android:id="@+id/product_color_select"
+                    style="@style/product_checkbox"
+                    android:background="@drawable/itme_home_color"
+                    android:text="@string/product_color" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <framework.view.PullToRefreshView
+        android:id="@+id/product_pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/product_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="1dp"
+            android:numColumns="2"
+            android:verticalSpacing="1dp"
+            android:layout_marginTop="@dimen/itme_10dp" />
+    </framework.view.PullToRefreshView>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/itme_5dp"
+            android:text="总计"
+            android:textSize="@dimen/itme_18sp" />
+
+        <TextView
+            android:id="@+id/view_card_qian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/itme_5dp"
+            android:text="20"
+            android:textSize="@dimen/itme_18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/itme_5dp"
+            android:text="元"
+            android:textSize="@dimen/itme_18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/view_card_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/itme_5dp"
+        android:background="@drawable/product_dot"
+        android:gravity="center"
+        android:text="购买" />
+
+</RelativeLayout>

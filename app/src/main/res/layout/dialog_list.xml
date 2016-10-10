@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_toRightOf="@+id/user_pic"
+    android:text="多么痛的领悟呀"
+    android:textColor="@color/black"
+    android:padding="@dimen/itme_10dp"
+    android:layout_margin="@dimen/itme_10dp"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/itme_18dp" />

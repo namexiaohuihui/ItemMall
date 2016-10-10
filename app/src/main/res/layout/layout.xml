@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/layout_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_diablo"
+        />
+
+    <TextView
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/itme_10dp"
+        android:layout_marginLeft="@dimen/itme_10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/itme_18sp"
+        android:text="标题"
+        />
+
+    <TextView
+        android:id="@+id/layout_yuanjia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/itme_10dp"
+        android:layout_marginLeft="@dimen/itme_10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/itme_14sp"
+        android:text="现价"
+        />
+
+    <TextView
+        android:id="@+id/layout_xianjia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/itme_10dp"
+        android:layout_marginLeft="@dimen/itme_10dp"
+        android:textColor="@color/red"
+        android:textSize="@dimen/itme_18sp"
+        android:text="原价"
+        />
+</LinearLayout>

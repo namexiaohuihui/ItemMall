@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="panhui.cn.bwf.home.ui.WebTbActivity">
+
+    <ImageView
+        android:id="@+id/web_tb_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/itme_10dp"
+        android:scaleType="fitCenter"
+        android:maxHeight="250dp"
+        android:maxWidth="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/axiulou"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/web_tb"
+                    android:text="编号"/>
+                <TextView
+                    android:id="@+id/web_tb_bh"
+                    style="@style/web_tb"
+                    android:text="编号:"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/web_tb"
+                    android:text="标题"/>
+
+                <TextView
+                    android:id="@+id/web_tb_bt"
+                    style="@style/web_tb"
+                    android:text="标题"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/web_tb"
+                    android:textColor="@color/red"
+                    android:text="现价"/>
+
+                <TextView
+                    android:id="@+id/web_tb_xj"
+                    style="@style/web_tb"
+                    android:textColor="@color/red"
+                    android:text="现价"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/web_tb"
+                    android:text="原价"/>
+
+                <TextView
+                    android:id="@+id/web_tb_yj"
+                    style="@style/web_tb"
+                    android:text="原价"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/web_tb"
+                    android:text="库存"/>
+
+                <TextView
+                    android:id="@+id/web_tb_kc"
+                    style="@style/web_tb"
+                    android:text="库存"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/web_tb_gm"
+                style="@style/web_tb_button"
+                android:text="购买"/>
+
+            <Button
+                android:id="@+id/web_tb_che"
+                style="@style/web_tb_button"
+                android:text="购物车"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

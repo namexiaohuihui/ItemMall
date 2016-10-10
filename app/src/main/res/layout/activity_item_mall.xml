@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="panhui.cn.bwf.home.ui.ItemMallActivity">
+
+    <FrameLayout
+        android:id="@+id/home_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radio"
+        />
+      <RadioGroup
+          android:id="@+id/radio"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:orientation="horizontal"
+          android:background="@color/white"
+          android:padding="5dp"
+          >
+          <RadioButton
+              android:id="@+id/title1"
+              style="@style/menu_style"
+              android:drawableTop="@drawable/selector_menu_home"
+              android:checked="true"
+              android:text="@string/home"/>
+          <RadioButton
+              android:id="@+id/title2"
+              style="@style/menu_style"
+              android:drawableTop="@drawable/selector_menu_product_icon"
+              android:text="@string/product"/>
+          <RadioButton
+              android:id="@+id/title3"
+              style="@style/menu_style"
+              android:drawableTop="@drawable/selector_menu_cart_icon"
+              android:text="@string/cart"/>
+          <RadioButton
+              android:id="@+id/title4"
+              style="@style/menu_style"
+              android:drawableTop="@drawable/selector_menu_usercenter_icon"
+              android:text="@string/usercenter"/>
+      </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/user_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/guest"
+        android:maxHeight="30dp"
+        android:maxWidth="30dp"
+        android:layout_margin="@dimen/itme_10dp"
+        />
+
+    <TextView
+        android:id="@+id/user_tv"
+        android:textSize="24dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/user_pic"
+        android:layout_height="wrap_content"
+        android:text="多么痛的领悟呀"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/guest"
+        android:maxHeight="30dp"
+        android:maxWidth="30dp"
+        android:layout_margin="@dimen/itme_10dp"/>
+
+</RelativeLayout>

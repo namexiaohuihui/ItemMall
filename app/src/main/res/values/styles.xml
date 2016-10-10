@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menu_style">
+        <item name="android:layout_width"> 0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity"> center</item>
+        <item name="android:button"> @null</item>
+        <item name="android:textColor"> @drawable/selector_menu_name</item>
+
+    </style>
+
+
+    <style name="item_view">
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+
+    <style name="product_checkbox">
+        <item name="android:layout_width">@dimen/itme_0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/itme_10dp</item>
+        <item name="android:layout_marginRight">@dimen/itme_10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/itme_10dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/itme_18dp</item>
+        <item name="android:textColor">@drawable/itme_product_num</item>
+    </style>
+
+    <style name="product_num">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/itme_5dp</item>
+        <item name="android:textSize">@dimen/itme_14sp</item>
+        <item name="android:background">@drawable/product_dot</item>
+        <item name="android:layout_marginLeft">@dimen/itme_5dp</item>
+
+    </style>
+
+    <style name="web_tb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/itme_10dp</item>
+        <item name="android:layout_margin">@dimen/itme_10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="web_tb_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/back_drawable</item>
+        <item name="android:layout_margin">@dimen/itme_10dp</item>
+    </style>
+
+
+    <style name="shipping_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/itme_18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">@dimen/itme_5dp</item>
+    </style>
+
+
+    <style name="user_information">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/itme_18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/itme_10dp</item>
+        <item name="android:padding">@dimen/itme_5dp</item>
+    </style>
+
+    <style name="user_information2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/itme_18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/itme_10dp</item>
+        <item name="android:padding">@dimen/itme_5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+
+    <style name="user_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/itme_18sp</item>
+        <item name="android:padding">@dimen/itme_5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+
+</resources>

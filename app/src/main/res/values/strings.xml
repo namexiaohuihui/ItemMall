@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ItemMall</string>
+    <string name="home">首页</string>
+    <string name="home1">首界面</string>
+    <string name="cart">购物车</string>
+    <string name="product">商品</string>
+    <string name="usercenter">我的邦购</string>
+    <string name="product_sousuo">请输入你要搜索的商品</string>
+    <string name="product_sousuo2">搜索</string>
+
+    <string name="product_moren">默认排序</string>
+    <string name="product_jiage">价格排序</string>
+    <string name="product_xiaoliang">销量排序</string>
+    <string name="product_xingbie">性别选择</string>
+    <string name="product_buwen">部位选择</string>
+    <string name="product_color">颜色选择</string>
+
+    <string name="cart_button">提交</string>
+    <string name="Shipping_address">收货地址</string>
+</resources>
